@@ -1,0 +1,114 @@
+body {
+	padding-top: 56px;
+	line-break; strict;
+}
+
+.jumbotron {
+	background: url("./pics/nic.jpg") no-repeat center;
+}
+
+.btn-primary {
+	background-color: #c60063;
+	border-color: #c60063;
+}
+
+.btn-secondary {
+	background-color: transparent;
+	border-color: #c60063;
+	color: #c60063;
+}
+
+#contact {
+	background-color: blue;
+	background:  no-repeat center;
+}
+
+#animal-text{
+	color:  white;
+	background-color: grey;
+}
+
+.text-mine{
+	display: block;
+}
+
+.carousel-item {
+  height: 450px;
+  width:  80% !important;
+}
+
+.carousel-item img {
+    position: justify;
+    object-fit:cover;
+    min-height: 400px;
+}
+
+.carousel-inner > .carousel-item > img{
+margin:auto;
+}
+
+#display-size {
+/*	width: 900px;
+	padding-top: 25px;
+	padding-left: 100px, auto;
+	padding-right: auto;*/
+	position: relative;
+
+	font-weight: 300;
+margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+padding-bottom: 1em;
+box-sizing: border-box;
+}
+
+.presentation-description {
+	-webkit-column-gap: 20px;
+	column-gap: 20px;
+	-webkit-column-width: 530px;
+	column-width: 530px;
+}
+.content-width {
+	margin: 0 auto;
+	max-width: 1210px;
+	padding: 20px;
+}
+* {
+	/* -webkit-box-sizing: border-box; */
+	box-sizing: border-box;
+}
+
+.presentation-header {
+	text-align: center;
+}
+.content-width {
+	margin: 0 auto;
+	max-width: 1210px;
+	padding: 20px;
+}
+
+#content-width {
+	margin: 0 auto;
+	max-width: 2000px;
+	padding: 20px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1300px 1300px 1300px 1300px;
+	grid-auto-rows: initial; 
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	align-items: center;
+}
+* {
+	/* -webkit-box-sizing: border-box; */
+	box-sizing: border-box;
+}
+
+/*.carousel-item{
+    height: 420px;
+} 
+.carousel-item img{
+    height: 420px;
+}*/
